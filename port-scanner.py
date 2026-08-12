@@ -45,6 +45,7 @@ def scan_port(target,port):
         sock.close()
 
 def main():
+    banner()
     target=input("Enter Target: ")
     p_s= int(input("Start Port: "))
     p_e= int(input("End Port: "))
