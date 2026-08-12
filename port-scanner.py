@@ -6,6 +6,7 @@ target=input("Enter Target: ")
 
 for port in range(1,1025):
     sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    sock.settimeout(2)
     result=sock.connect_ex((target,port))
 
     if result == 0:
