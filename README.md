@@ -77,3 +77,7 @@ This is a basic port scanner and currently does not include:
 - Advance scan techniques
 
 These features can be added in future versions.
+
+## Author
+
+Me🫨
