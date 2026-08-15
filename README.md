@@ -33,3 +33,35 @@ Check your Python version:
 Python3 --version
 ````
 
+## Installation
+
+Clone the repo:
+
+````bash
+git clone https://github.com/SilentSpectre-arch/PortScanner.git
+cd PortScanner
+````
+
+## Usage
+````bash
+python3 port-scanner.py
+````
+
+You will be asked for the target:
+
+````bash
+Enter Target: 127.0.0.1
+Start Port: 1
+End Port: 1024
+````
+
+Example output:
+
+````text
+Port 22 is open
+port 80 is open
+port 443 is open
+````
+
+You can also scan a hostname.
+
