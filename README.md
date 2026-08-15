@@ -65,3 +65,15 @@ port 443 is open
 
 You can also scan a hostname.
 
+## Limitations
+
+This is a basic port scanner and currently does not include:
+
+- UDP scanning
+- Service detection
+- Banner grabbing
+- OS detection
+- Stealth scanning
+- Advance scan techniques
+
+These features can be added in future versions.
