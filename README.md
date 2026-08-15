@@ -20,3 +20,16 @@ A simple and fast TCP port scanner written in python using the built-in `socket`
 - Simple terminal banner
 - Colored terminal output
 - Automatic socket cleanup
+- No external Python dependencies
+
+## Requirements
+
+- Python3
+- Linux, macOS or Windows
+
+Check your Python version:
+
+````bash
+Python3 --version
+````
+
